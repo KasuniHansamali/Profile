@@ -1,0 +1,136 @@
+/*-----Media Query-----*/
+@media screen and (max-width: 319px) {
+    * {
+        display: none !important;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white !important;
+    }
+
+    body:before {
+        content: "Try in Big Screen!";
+        color: #1d2124;
+        font-weight: 600;
+    }
+}
+
+/*Landscape*/
+/* Mobile Devices */
+@media (max-height: 575px) and (max-width: 1200px) and (orientation: landscape) {
+
+}
+
+/* Mobile Devices */
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    /*Font Size @pv@an*/
+    .f-xs-10 {font-size: 10px !important;}
+    .f-xs-12 {font-size: 12px !important;}
+    .f-xs-14 {font-size: 14px !important;}
+    .f-xs-16 {font-size: 16px !important;}
+    .f-xs-18 {font-size: 18px !important;}
+    .f-xs-19 {font-size: 19px !important;}
+    .f-xs-20 {font-size: 20px !important;}
+    .f-xs-22 {font-size: 22px !important;}
+    .f-xs-24 {font-size: 24px !important;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large Devices, Tablets / Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+
+}
+
+/* (1366x768) Desktop OLD */
+@media (min-width: 1366px) and (max-width: 1399px) {
+
+}
+
+/* Mac Book */
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+
+}
+
+/* Laptop / Desktop New */
+@media only screen and (min-width: 1920px) and (max-width: 2499.5px) {
+
+}
+
+/* 2K / 4K Laptop / Desktop*/
+@media (min-width: 2500px) {
+
+}
+@media(min-width:992px) {
+    .padding-r-z-d-only {
+        padding-right: 0px;
+    }
+    .padding-l-z-d-only {
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .info-box{
+        padding:30px;
+    }
+    .info-box-mb-p {
+        padding: 0px !important;
+    }
+    .pt-5, .py-5 {
+        padding-top: 0px !important;
+    }
+    .mb-20-width {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .mb-30-width {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .mb-40-width{
+    flex: 0 0 40%;
+    max-width: 40%;
+    }
+    .mb-50-width {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .mb-60-width {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .no-padding-mb{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .padding-r-z-mb{
+        padding-right:0px;
+    }
+    .padding-l-z-mb {
+        padding-left: 0px;
+    }
+    .student-text-main{
+        font-size:13px !important;
+    }
+    .class-students .custom-btn, .class-students .custom-lbl{
+        padding:3px 8px;
+    }
+    .c-s-request .custom-btn, .c-s-request .custom-lbl {
+        padding: 3px 5px;
+    }
+}
